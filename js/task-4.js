@@ -1,7 +1,7 @@
 function getShippingCost(country) {
   let price = 0;
-  const Country = country.toLowerCase().trim();
-  switch (Country) {
+  const country2 = country.toLowerCase().trim();
+  switch (country2) {
     case 'china':
       price = 100;
       break;
